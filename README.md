@@ -97,7 +97,7 @@ Positive:
 This movie was absolutely fantastic, I loved every minute of it.
 
 Negative:
-This was a complete waste of time, I regret watching it.
+This movie was so bad I hated every minute of it.
 
 ## Results (Typical)
 Performance metrics of all the algorithms
