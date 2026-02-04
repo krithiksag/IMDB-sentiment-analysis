@@ -2,7 +2,8 @@
 
 This project performs sentiment analysis on movie reviews from the IMDb dataset.
 It compares traditional machine learning with deep learning models using custom NLP preprocessing and Word2Vec embeddings.
-
+## Link
+https://imdb-sentiment-analysis-n3sn3tmseveqf8ljtzvxd2.streamlit.app/
 ## Project Overview
 
 We classify movie reviews as Positive or Negative using:
@@ -14,6 +15,8 @@ LSTM	Word2Vec embedding layer + LSTM
 
 
 ## Project Structure
+
+```
 imdb-sentiment-analysis/
 │
 ├── app.py                      # Streamlit web app
@@ -24,6 +27,8 @@ imdb-sentiment-analysis/
 ├── word2vec.model              # Trained Word2Vec embeddings
 ├── requirements.txt            # Dependencies
 └── README.md                   # Project documentation
+```
+
 
 
 

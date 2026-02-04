@@ -10,10 +10,17 @@ from gensim.models import Word2Vec
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
-# Download NLTK resources (only first run)
-nltk.download('punkt')
-nltk.download('stopwords')
-nltk.download('wordnet')
+# import nltk
+
+@st.cache_resource
+def download_nltk():
+    nltk.download('punkt')
+    nltk.download('stopwords')
+    nltk.download('wordnet')
+    nltk.download('omw-1.4')
+
+download_nltk()
+
 
 # Load saved assets
 nb_model = joblib.load("naive_bayes_w2v.pkl")
